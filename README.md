@@ -7,7 +7,7 @@ There is a difference in ADB commands used for installing mobile apps on Android
 * <code>-e</code> is for emulator
     - Use the <code>-e</code> option for a physical device, if it's connected to your computer via **WiFi** and not via the USB cable. Point the command to the UDP/TCP port (used by emulators) in lieu of the USB port. 
  
-* <code>-s</code> is for serial number for either physical or virtual device.
+* <code>-s</code> is for serial number for either physical or virtual device. It's also known as UDID (Unique Device ID), which is useful when executing an <code>emulator</code> or <code>adb</code>command. I ulso use the UDID in the Desired Capabilities of my Appium automation scripts, when executing tests on physical Android devices.
    
 For example:
 
